@@ -90,7 +90,7 @@ header{
 /*==== MEDIA QUERIES (SMALL) ====*/
 @media screen and (max-width: 600px) {
     header {
-        height: 60vh;
+        height: 100vh;
     }
 
     .header_socials, .scroll_down {
