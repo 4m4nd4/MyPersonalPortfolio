@@ -99,7 +99,7 @@ header{
     .header_socials, .scroll_down {
         display: none;
     }
-    
+
     .me {
         /*background: var(--color-primary); / linear-gradient(var(--color-primary), transparent);*/
         /*border-radius: 12rem 12rem 0 0;*/
@@ -110,6 +110,6 @@ header{
         position: absolute;
         left: calc(50% - 12rem);
         margin-top: 5px;
-        margin-left: 35px;
+        margin-left: 70px;
     }
 }
