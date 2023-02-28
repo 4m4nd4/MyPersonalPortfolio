@@ -1,12 +1,15 @@
 
+
 .about_container {
     display: grid;
     grid-template-columns: 35% 50%;
     gap: 15%;
+    overflow: hidden;
+    height: 55vh;
 }
 
 .about_me {
-    width: 100%;
+    width: 80%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
     background: linear-gradient(
@@ -17,8 +20,8 @@
     );
     display: grid;
     place-items: center;
-    overflow:visible;
-    margin-left: 3rem;
+    overflow: visible;
+    margin-left: 10rem;
     margin-top: 2rem;
 }
 
@@ -81,6 +84,7 @@
     .about_container {
         grid-template-columns: 1fr;
         gap: 0;
+        height: 76vh;
     }
 
     .about_me {
@@ -95,6 +99,10 @@
 
 /* ==== MEDIA QUERIES (SMALL) ==== */
 @media screen and (max-width: 600px) {
+    .about_container{
+        height: 150vh;
+    }
+
     .about_me {
         width: 65%;
         margin: 0 auto 3rem;
