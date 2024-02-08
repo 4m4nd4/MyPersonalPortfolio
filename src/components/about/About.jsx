@@ -43,7 +43,7 @@ const About = () => {
           </div>
 
           <p>
-            Sou Amanda, tenho 19 anos e estou iniciando minha carreira como Dev Front-End. 
+            Sou Amanda, tenho 20 anos e estou iniciando minha carreira como Dev Front-End. 
             Graduada em Análise e Desenvolvimento de Sistemas, concluí cursos focados em Front-end e Design. 
             Estou sempre buscando novos conhecimentos e desafios.
           </p>
