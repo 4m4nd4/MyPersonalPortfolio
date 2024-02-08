@@ -7,8 +7,8 @@ import Experience from './components/experience/Experience'
 import Portfolio from './components/portfolio/Portfolio'
 import Footer from './components/footer/Footer'
 import Contact from './components/contact/Contact'
-import Loader from './components/loader/Loader'
-
+//import Loader from './components/loader/Loader'
+//<Footer />
 
 const App = () => {
     return (
@@ -19,7 +19,7 @@ const App = () => {
             <Experience />
             <Portfolio />
             <Contact />
-            <Footer />
+            
 
             <Loader />
         </>
