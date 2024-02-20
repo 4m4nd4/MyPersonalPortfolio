@@ -29,7 +29,7 @@ const Contact = () => {
 
                 <article className="contact_option">
                     <BsTelegram className='contact_option-icon'/>
-                    <h4>LinkedIn</h4>
+                    <h4>Telegram</h4>
                     <h5>@amanda_rds</h5>
                     <a href="https://t.me/amanda_rds" target="_blank" rel="noreferrer">Acessar</a>
                 </article>
