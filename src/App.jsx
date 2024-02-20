@@ -7,8 +7,8 @@ import Experience from './components/experience/Experience'
 import Portfolio from './components/portfolio/Portfolio'
 import Footer from './components/footer/Footer'
 import Contact from './components/contact/Contact'
-//import Loader from './components/loader/Loader'
-//<Loader />
+import Loader from './components/loader/Loader'
+
 
 const App = () => {
     return (
@@ -21,7 +21,7 @@ const App = () => {
             <Contact />
             <Footer />
             
-
+            <Loader />
         </>
     )
 }
